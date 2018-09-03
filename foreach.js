@@ -1,0 +1,7 @@
+let a = ["ant", "bat", "cat", 42];
+a.forEach(element => console.log(element));
+let soliloquy = "To be, or not to be, that is the question:";
+Array.from(soliloquy).forEach(character => console.log(character));
+let b = [17, 8, 99, 42];
+b.sort((a, b) => a - b);
+b.forEach(el => console.log(el));
