@@ -7,4 +7,6 @@ beginner JavaScript tutorial in the history of the Universe.
 You should totally [check it out](https://www.learnenough.com/javascript-tutorial), and be sure to [join the email list](http://learnenough.com/#email_list) and [follow @learnenough](http://twitter.com/learnenough) on Twitter.
 
 After finishing *Learn Enough™ JavaScript to Be Dangerous*, you'll know enough JavaScript
-to be *dangerous*. 
+to be *dangerous*.
+
+Disclaimer: the full [palindrome detector app](https://github.com/FelipeParreira/palindrome-detector) and the [sample website with a functional photo gallery](https://github.com/FelipeParreira/full_sample_website) are not in this repo, though.
