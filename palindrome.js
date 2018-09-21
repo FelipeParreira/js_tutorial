@@ -46,6 +46,7 @@ function Phrase(content) {
   }
 }
 
+// Defines a TranslatedPhrase object.
 function TranslatedPhrase(content, translation) {
   this.content = content;
   this.translation = translation;
@@ -55,6 +56,8 @@ function TranslatedPhrase(content, translation) {
     return this.processor(this.translation);
   }
 }
+
+TranslatedPhrase.prototype = new Phrase();
 
 // Adds `reverse` to all strings.
 String.prototype.reverse = function() {
